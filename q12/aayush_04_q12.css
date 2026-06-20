@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 30px;
+}
+
+.clock {
+    background: linear-gradient(135deg, #8e2de2, #4a00e0);
+    color: white;
+    display: inline-block;
+    padding: 30px 50px;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    border-radius: 10px;
+}
