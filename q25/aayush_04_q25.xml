@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE books SYSTEM "aayush_04_q25.dtd">
+
+<books>
+
+    <book>
+        <title>The Alchemist</title>
+        <author>Paulo Coelho</author>
+        <price>450</price>
+        <year>1988</year>
+    </book>
+
+    <book>
+        <title>Atomic Habits</title>
+        <author>James Clear</author>
+        <price>650</price>
+        <year>2018</year>
+    </book>
+
+</books>
