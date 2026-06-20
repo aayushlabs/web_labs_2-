@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        #mainImage {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .thumbnail {
+            width: 70px;
+            height: 50px;
+            object-fit: cover;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Image Gallery</h1>
+    <hr>
+
+    <img id="mainImage" 
+         src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" 
+         alt="Main Image">
+
+    <div class="thumbnails">
+        <img class="thumbnail" src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="">
+        <img class="thumbnail" src="https://images.unsplash.com/photo-1500382017468-9049fed747ef" alt="">
+        <img class="thumbnail" src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e" alt="">
+        <img class="thumbnail" src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4" alt="">
+    </div>
+
+    <script src="aayush_04_q22.js"></script>
+
+</body>
+</html>
